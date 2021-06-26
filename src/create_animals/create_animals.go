@@ -187,13 +187,11 @@ func loopUserRequest(uCows []Cow, uBirds []Bird, uSnakes []Snake) {
 		
 
 
-		if (restartProgram) {
-			
-			
+		if (restartProgram) {			
 
 			continue
 		} else {
-			// Here goes the ACTIONS
+			
 			aName = userReqSli[1]
 
 			
@@ -220,29 +218,6 @@ func loopUserRequest(uCows []Cow, uBirds []Bird, uSnakes []Snake) {
 					PrintInstructions()
 			}
 		}
-
-
-			
-
-
-		/*
-		fmt.Println(">")
-		command := ""
-		name := ""
-		info_or_type := ""
-
-		fmt.Scan(&command,&name,&info_or_type)
-		*/
-
-		/*
-		if action == "eat"{
-			m[animal].Eat()
-		}else if action == "move"{
-			m[animal].Move()
-		}else if action == "speak"{
-			m[animal].Speak()
-		}
-		*/
 
 	}
 }
@@ -440,7 +415,7 @@ func printUserAnimals(uCows []Cow, uBirds []Bird, uSnakes []Snake) {
 		fmt.Println(uBird)
 		
 	}
-	
+
 	fmt.Println("")
 	fmt.Println("------- SNAKES: -----")
 	fmt.Println("")
